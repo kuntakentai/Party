@@ -1,0 +1,8 @@
+name: Party
+main: com.kunta.dev.Party
+version: 0.1
+authors: [Desty, KuntaKentai]
+commands:
+  party:
+    description: pawty hawd
+    usage: /party
