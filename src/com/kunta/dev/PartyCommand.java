@@ -8,7 +8,7 @@ import org.bukkit.entity.Player;
 
 public class PartyCommand implements CommandExecutor {
 	
-	@Override
+	@Override 
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (sender instanceof Player) {
             Player player = (Player) sender;

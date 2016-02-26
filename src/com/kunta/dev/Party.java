@@ -5,7 +5,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class Party extends JavaPlugin{
 	
-	@Override
+	@Override 
 	public void onEnable(){
 		PluginManager pm = getServer().getPluginManager();
 		this.getCommand("party").setExecutor(new PartyCommand());

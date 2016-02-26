@@ -61,7 +61,7 @@ public class PartyHandler{
 			}
 		}
 		return "Player not in party";
-	}
+	} 
 	public static Player getPlayer(Player sender, String target) {
 	    Player p = sender.getServer().getPlayer(target);
 	    return p;
