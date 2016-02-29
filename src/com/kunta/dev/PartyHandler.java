@@ -216,7 +216,7 @@ public class PartyHandler{
 					}
 				} else
 					host.sendMessage(ChatColor.RED + "Player is not into your party!");
-			}
+			} 
 		}
 	}
 	public static void leaveParty(Player leave)

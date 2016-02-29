@@ -105,7 +105,7 @@ public class PartyCommand implements CommandExecutor {
             	if(args.length == 1){
             		if(PartyHandler.isPartyHost(player)){
             			PartyHandler.disbandParty(player);;
-            		}
+            		} 
             		return true;
             	}
             }
